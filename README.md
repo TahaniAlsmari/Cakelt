@@ -1,56 +1,43 @@
-# Cakelt - Custom Cake Ordering App
-**Software Engineering Project | Prince Sattam bin Abdulaziz University**
+# Cakelt - Software Engineering Project
+**Prince Sattam bin Abdulaziz University | SE-2111**
 
-## 📌 Project Overview
-**Cakelt** is a specialized mobile application for a cake shop that bridges the gap between traditional bakeries and digital customization. It allows users to design their own cakes (flavors, fillings, decorations) and see a visual preview before ordering[.
+This repository contains the complete software engineering documentation for **Cakelt**, a specialized mobile application that enables users to custom-design cakes with real-time visual feedback and seamless ordering.
 
-### 🛠 The Problem We Solve
-* **Limited Customization:** Traditional stores have fixed designs.
-* **Communication Gap:** Ordering custom cakes via calls often leads to errors.
-* **No Preview:** Customers cannot visualize their design before it's made.
+## Project Navigation
+Select a section below to explore the detailed project documentation. Each section provides a focused view of the engineering lifecycle.
 
----
+### 1. Requirements Engineering
+Understanding the system's needs and quality standards.
+* [Functional Requirements](./requirements/functional.md) - Core system features and operations.
+* [Non-Functional Requirements](./requirements/non_functional.md) - Performance, security, and usability benchmarks.
 
-## 📊 Requirements Analysis
+### 2. System Modeling & Design
+Architectural representations of the system structure and behavior.
+* [Use Case Modeling](./design/use_case.md) - Actor-system interactions and boundaries.
+* [Behavioral Modeling](./design/sequence.md) - Dynamic sequence of operations.
+* [Structural Modeling](./design/class_diagram.md) - System classes and logical relationships.
 
-### 1. Functional Requirements (High Priority)
-| ID | Requirement | Description |
-|----|-------------|-------------|
-| R1 | User Registration | Create accounts to access features. |
-| R2 | Cake Customization | Select size, shape, flavors, and toppings[. |
-| R3 | Visualization | Provides a 3D model or image preview]. |
-
-### 2. Non-Functional Requirements
-* **Usability:** Intuitive and user-friendly interface.
-* **Performance:** Loads within 3 seconds.
-* **Security:** Encrypted user data and secure payments.
+### 3. User Interface (UI)
+* [Interactive Prototype](./prototype/README.md) - Full gallery of the 11 application screens and user flow.
 
 ---
 
-## 🏗 System Design & Diagrams
+## Project Overview
+The core objective of Cakelt is to bridge the communication gap between customers and bakers. By digitizing the customization process, the application ensures accuracy in orders, reduces manual errors, and enhances customer satisfaction through a modern design-to-order workflow.
 
-
-### 🔹 Use Case Diagram
-[cite_start]Our system identifies key interactions between the **User** and the **Payment Gateway**[cite: 32].
-![Use Case Diagram](assets/use-case.png)
-
-### 🔹 Sequence Diagrams
-* [cite_start]**Order Flow:** Detailed interaction between the Customer, App Server, and Database[cite: 37].
-* [cite_start]**Payment & Delivery:** Shows the integration with third-party delivery services[cite: 37].
+## Development Methodology
+The project followed structured software engineering principles:
+1. **Analysis:** Requirements gathering and prioritization.
+2. **Modeling:** Using UML diagrams to visualize system logic.
+3. **Design:** High-fidelity prototyping of user interfaces.
 
 ---
 
-## 🎨 User Interface (Prototype)
-*Screenshots of the finalized UI design including the Cake Customizer and Checkout pages.*
-<p align="center">
-  <img src="assets/ui-1.png" width="200" />
-  <img src="assets/ui-2.png" width="200" />
-</p>
+## Project Team 
+* Tahani Alsamari
+* Haneen Al saeed
+* Aljwharah Alhuqbane
+* Shahad Matrad
+* Tahani Alsamari
 
 ---
-
-## 👥 Project Team (Group 2)
-* [cite_start]**Haneen Al saeed** 
-* [cite_start]**Aljwharah Alhuqbane** 
-* [cite_start]**Shahad Matrad** 
-* [cite_start]**Tahani Alsamari**
