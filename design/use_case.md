@@ -13,4 +13,6 @@ The Use Case Diagram defines the interactions between our users (Customer and Ad
 ##  Key Use Cases
 * **Customize Cake:** The core feature allowing flavor and decoration selection.
 * **Place Order:** The process of finalizing the selection and initiating payment.
+
+  
 [⬅ Back to Main Page](../README.md)
